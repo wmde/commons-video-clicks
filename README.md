@@ -24,4 +24,4 @@ If a proxy is used, this application requires PHP with php-curl installed. To de
 Please note that in this case the application must run on tools.wmflabs.org. Otherwise you would receive a cross-domain-request error.
 
 ## License ##
-This application was developed in JUne 2017 by DIQA-Projektmanagement GmbH 2017 and is distributed under Creative Commons License CC0 1.0 Universal.
+This application was developed in June 2017 by [DIQA-Projektmanagement GmbH](http://www.diqa-pm.de) and is distributed under Creative Commons License CC0 1.0 Universal.
