@@ -1,0 +1,87 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+<title>WikiMedia-Video-Tracking-Tool</title>
+</head>
+ <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">WikiMedia-Video-Tracking-Tool</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="help.html">Help</a></li>
+            <li><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" target="_blank">License</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+     <div class="starter-template">
+        <h1>Documentation</h1>
+        
+      </div>
+      <p>This tool is used to query video tracking data of video resources on <a href="https://commons.wikimedia.org/wiki" target="_blank">commons.wikimedia.org</a>. 
+      It allows exporting them as a CSV file.</p>
+      
+      <p><b>Video-Link</b>: Please enter the URL / name of a video resource.  
+      </p>
+      <p>The following formats are allowed:</p>
+      <ul style="word-wrap:break-word;">
+        <li>https://commons.wikimedia.org/wiki/File:How_Wikipedia_contributes_to_free_knowledge.webm</li>
+        <li>File:How_Wikipedia_contributes_to_free_knowledge.webm</li>
+        <li>How_Wikipedia_contributes_to_free_knowledge.webm</li>
+      </ul>
+      
+      <p><b>Date from</b>: Enter the date from which the tracking results should be requested. The format is month/day/year. You can also use the datepicker.</p>
+   	  <p><b>Date to</b>: Enter the date until the tracking results should be requested. The format is month/day/year. You can also use the datepicker.</p>
+   	  
+   	  <p><b>Get views</b>: Requests the data and displays it in the table.</p>
+   	  <p><b>Export as CSV</b>: Requests the data and exports it in a CSV file. Delimiter is semi-colon. The unixtimestamp displays a convertable format.
+   	   It shows the time of day from the beginning of the queried date until the end of the date.</p>
+   	  
+   	  <h1>License</h1>
+   	  <p>This application is distributed under <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" target="_blank">creative commons license</a> (CC0 1.0 Universal).</p>
+   	  <p>developed by DIQA-Projektmanagement GmbH 2017</p> 
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+  	<link rel="stylesheet" type="text/css" href="skins/wikimedia-video-tool.css"></link>
+	<script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<!-- <script type="text/javascript" src="libs/jquery.ajax-cross-origin.min.js"></script>  -->
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/bootbox.min.js"></script>
+	<script src="libs/bootstrap-waitingfor.min.js"></script>
+	<script type="text/javascript" src="src/mediaplaycounts.js"></script>
+	<script type="text/javascript" src="src/wikimedia-video-tool.js"></script>
+  </body>
+</html>
