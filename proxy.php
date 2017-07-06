@@ -1,4 +1,13 @@
 <?php
+/**
+ * Wikimedia-Video-Tracking-Tool
+ * developed by DIQA-Projektmanagement GmbH 2017
+ *
+ * Proxy for HTTP requests
+ * 	
+ * @author: Kai Kühn 
+ * @license: CC0 1.0
+ */
 $url = (isset($_GET['url'])) ? $_GET['url'] : false;
 if(!$url) exit;
 

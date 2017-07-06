@@ -4,9 +4,10 @@
  * mediaplaycounts-api
  * API-Documentation: https://phabricator.wikimedia.org/P4339
  * 
- * (c) DIQA-Projektmanagement GmbH 2017
+ * developed by DIQA-Projektmanagement GmbH 2017
  * 
  * @author: Kai Kühn
+ * @license: CC0 1.0
  */
 (function($) { 
 	
