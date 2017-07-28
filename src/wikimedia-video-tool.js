@@ -11,7 +11,7 @@
 	/**
 	 * Set this to false if no proxy should be used.
 	 */
-	var USE_PROXY = true;
+	var USE_PROXY = false;
 	
 	var ajax = new window.Ajax(USE_PROXY);
 	
